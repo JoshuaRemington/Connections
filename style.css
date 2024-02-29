@@ -1,0 +1,56 @@
+body {
+  font-family: verdana;
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%,-50%);
+  font-size: 16pt;
+  font-size: 4h;
+  font-weight: 600;
+}
+
+.main-container {
+  position: absolute;
+  width: 70vw;
+  height: 40vh;
+  align-items: center;
+  left:50%;
+  top:25%;
+  transform: translate(-50%);
+}
+
+.connections-buttons {
+  background-color: rgb(240, 240, 192);
+  width: 20%;
+  height: 20%;
+  font-size: 16px;
+  font-size: 3.5vw;
+  font-weight: bold;
+  margin: 2%;
+  border: none;
+  border-radius: 10%;
+}
+
+.connections-buttons:hover {
+  background-color: rgb(210, 210, 179);
+  cursor: pointer;
+}
+
+.check-button {
+  background-color: white;
+  position: relative;
+  left: 50%;
+  margin-top: 5%;
+  transform: translate(-50%);
+  border-color: red;
+  border: none;
+  font-weight: 800;
+}
+
+.check-button:hover {
+  color: rgb(84, 221, 180);
+  cursor: pointer;
+}
