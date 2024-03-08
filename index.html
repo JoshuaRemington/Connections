@@ -8,8 +8,15 @@
 <body>
   <div class="title">Connections</div>
   <div id="container" class="main-container">
-    <button class="check-button" onclick="checkConnection()">Check Connection</button>
+    <div class="chances-remaining" id="chances"></div>
+    <div class="button-container">
+      <button class="check-button" onclick="checkConnection()">Check Connection</button>
+      <button class="check-button" onclick="shufflePositions()">Shuffle</button>
+      <button class="check-button" onclick="deselectAll()">Deselect All</button>
+      <button class="check-button" onclick="userNewGame()">New Game</button>
+    </div>
   </div>
+  <div class="made-by">Made by Joshua Remington @2024</div>
 
   <script src="connections.js"></script>
 </body>
